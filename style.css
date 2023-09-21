@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.music-player {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#playlist li:hover {
+    background-color: #f0f0f0;
+}
